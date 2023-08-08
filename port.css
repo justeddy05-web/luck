@@ -1,0 +1,309 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image:url(./laptop.jpeg) ;
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.logo{
+	font-size: 30px;
+	font-family: sans-serif;
+	color: white;
+}
+label{
+	color: white;
+}
+span{
+	color: darkred;
+	font-family: sans-serif;
+}
+nav ul li{
+	display: inline-block;
+	padding: 10px 8px 8px;
+	list-style-type: none;
+}
+nav ul li a{
+	color: white;
+}
+nav ul li a:hover{
+	color: blue;
+	transition: 0.5sec;
+}
+.sub{
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	border-radius: 15px 15px 15px;
+	border: 1px solid;
+	padding: 15px;
+}
+.sub:hover{
+	color: white;
+	transition:0.4s ;
+	transform: scale(1.0);
+}
+.mur{
+	position: absolute;
+	top: 40%;
+	left: 8px;
+}
+h1{
+	font size: 25px;
+	font-weight: bold;
+	margin: 20px 0px 20px;
+	font-family: sans-serif;
+	color: white;
+}
+h3{
+	font-size: 25px;
+	font-family: sans-serif;
+	margin-bottom: 45px;
+	color: white;
+}
+.mur h4{
+	color: white;
+}
+.mur span{
+	color: red;
+}
+.about{
+	width: 100%
+	padding:100px;
+	background-color: black;
+	padding-top: 70px;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.main{
+	display: flex;
+	flex-direction: row;
+	padding-left: 20px;
+	padding-top: 20px;
+	justify-content: space-around;
+	width: 1130px;
+	margin: 0 auto;
+	align-items: center;
+}
+.about p{
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.about h2{
+	font-size: 40px;
+	margin-bottom: 15px;
+	font-family: sans-serif;
+	color: white;
+	padding-left: 20px;
+}
+.about h4{
+	color: red;
+	padding-left: 20px;
+}
+.about button{
+	align-items: center;
+	color: white;
+	background-color: red;
+	border:3px solid transparent ;
+	border-radius: 30px;
+	font-weight: bold;
+	transition: .4s;
+	margin-left: 50px;
+	padding: 15px;
+}
+.about button:hover{
+	border: 2px solid;
+	background-color: transparent;
+}
+.serv{
+	width: 100%;
+	padding: 100px;
+	background-color: black;
+}
+.title{
+	color: white;
+	font-family: sans-serif;
+	font-size: 30px;
+	align-items: center;
+	padding-left: 100px;
+	margin-bottom: 20px;
+}
+.content{
+	color: white;
+	display: flex;
+	padding: 15px;
+	flex-direction: row;
+	align-items: center;
+
+}
+.ten{
+	border: 2px solid red;
+	border-radius: 25px;
+	padding: 15px;
+	display: block;
+	word-spacing: 1px;
+	margin-right: 15px;
+	box-shadow: 25px 8px 8px;
+}
+.con{
+	border: 2px solid red;
+	border-radius: 25px;
+	display: block;
+	padding: 15px;
+	word-spacing: 1px;
+	margin-right: 15px;
+	box-shadow: 25px 8px 8px;
+}
+.ent{
+	border: 2px solid red;
+	border-radius: 25px;
+	display: block;
+	padding: 15px;
+	word-spacing: 1px;
+	margin-right: 15px;
+	box-shadow: 25px 8px 8px;
+}
+.ten h4{
+	margin-bottom: 10px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+.con h4{
+	margin-bottom: 10px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+.ent h4{
+	margin-bottom: 10px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+.ten a{
+	border: 2px solid red;
+	color: white;
+	transition: .4s;
+	border-radius: 19px;
+	background-color: red;
+	margin-left: 70px;
+}
+.ten a:hover{
+	background-color: transparent;
+	cursor: pointer;
+	border: 2px solid;
+}
+.con a{
+	border: 2px solid red;
+	color: white;
+	transition: .4s;
+	border-radius: 19px;
+	background-color: red;
+	margin-left: 70px;
+}
+.con a:hover{
+	background-color: transparent;
+	cursor: pointer;
+	border: 2px solid;
+}
+.ent a{
+	border: 2px solid red;
+	color: white;
+	transition: .4s;
+	border-radius: 19px;
+	background-color: red;
+	margin: 70px;
+}
+.ent a:hover{
+	background-color: transparent;
+	cursor: pointer;
+	border: 2px solid;
+}
+.contact-me{
+	width: 100%;
+	height: 290px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #191919;
+}
+.contact-me p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	font-family: sans-serif;
+}
+.contact-me .button{
+	border: 2px solid red;
+	font-family: sans-serif;
+	color: white;
+	border-radius: 15px;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: red;
+	transition: .4s;
+}
+.contact-me .button:hover{
+	background-color: transparent;
+	cursor: pointer;
+	border: 2px solid;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background-color:#191919 ;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer .pro:nth-child(1){
+	font-size: 30px;
+	color: whitesmoke;
+	margin-bottom: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.tut{
+	color: white;
+	font-family: sans-serif;
+	width: 500px;
+	text-align: center;
+	font-size: 17px;
+	line-height: 26px;
+	margin-bottom: 30px;
+}
+.end{
+	color: red;
+	font-family: sans-serif;
+
+}
